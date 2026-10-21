@@ -8,27 +8,27 @@
 class Optchain < Formula
   desc "US option chains, implied volatility, and a terminal dashboard"
   homepage "https://github.com/oceanoverflow/homebrew-tap"
-  version "0.1.0.711"
+  version "0.1.0.717"
 
   on_macos do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.711/optchain-0.1.0.711-aarch64-apple-darwin.tar.gz"
-      sha256 "5c8bd6b65db4926a959989b0273147e755d61b5f72bb63f81462b316bea2ecd4"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.717/optchain-0.1.0.717-aarch64-apple-darwin.tar.gz"
+      sha256 "3482afaefca686b4dbe89162a1fdb2493568fc1383778b429795f245415453cf"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.711/optchain-0.1.0.711-x86_64-apple-darwin.tar.gz"
-      sha256 "a8d265aa15bf525ec89225b571c6ae5c40a76c39fa665e75deff25f8e3cfbdb6"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.717/optchain-0.1.0.717-x86_64-apple-darwin.tar.gz"
+      sha256 "0958df36d5262c5bde06050b407e2ffaea4e8f7de0011c4f9460c93b759fd402"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.711/optchain-0.1.0.711-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ccb1a8997dd9aa5b684b77345394387865dc4c90b3718c365eaed504d7f966da"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.717/optchain-0.1.0.717-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "df5dbc74bf0d94c0af9e17a4a23e13cc8cb1ec5d7c601ca9592245fb6341236d"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.711/optchain-0.1.0.711-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "28af676611b887549c1d9746c66582571dad64a4b979b9ac01a4955d20d47ada"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.717/optchain-0.1.0.717-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "46c0bbbc1b5efed362483fb4888603e1acff45b5c7eed129babacbbe99c86678"
     end
   end
 
