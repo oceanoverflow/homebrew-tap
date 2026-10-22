@@ -6,29 +6,29 @@
 # The source repository is private; the tap publishes built binaries
 # only, so installing needs no credentials and no Rust.
 class Optchain < Formula
-  desc "US option chains, implied volatility, and a terminal dashboard"
-  homepage "https://github.com/oceanoverflow/homebrew-tap"
-  version "0.1.0.745"
+  desc "Options Meerkat: US option chains, implied volatility, and a terminal dashboard"
+  homepage "https://optionsmeerkat.com"
+  version "0.1.0.774"
 
   on_macos do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.745/optchain-0.1.0.745-aarch64-apple-darwin.tar.gz"
-      sha256 "a0f61fa0ce857d1207ef3b78a1f8e9da7c28c59aac969821a3699a1fb0932422"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.774/optchain-0.1.0.774-aarch64-apple-darwin.tar.gz"
+      sha256 "f612b48795639513a1de9908ba611377ae3a23dd33e0b91ade46a54545d39f44"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.745/optchain-0.1.0.745-x86_64-apple-darwin.tar.gz"
-      sha256 "4e38573bc9b588ab6567a1df72e5a6f0365d6512f566c3504c12f549d3f1ed2b"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.774/optchain-0.1.0.774-x86_64-apple-darwin.tar.gz"
+      sha256 "ac3da68b9211930f2095af2563cc0ee7d5974668b637e2ce4da75616b4d949e1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.745/optchain-0.1.0.745-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ded2a6147b5f3f0b27f9ade763810bdbaf3ebb4cf718166091d147f55d6828ed"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.774/optchain-0.1.0.774-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1fb6dad9e1dcc9d280fcc56ae729a04db44741f7615167a21f138fa950b1ab00"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.745/optchain-0.1.0.745-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "862b9942ecacbf059fea39d36c3f4f4b40f6bda75a8861f9f4928585800a827e"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.774/optchain-0.1.0.774-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "10ac8ec7931e2583c891a19953485c5aa0ffed7a45dbb22c41e6e5064f1ff8ea"
     end
   end
 
