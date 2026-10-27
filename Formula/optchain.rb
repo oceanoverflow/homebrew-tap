@@ -8,27 +8,27 @@
 class Optchain < Formula
   desc "Options Meerkat: US option chains, implied volatility, and a terminal dashboard"
   homepage "https://optionsmeerkat.com"
-  version "0.1.0.1154"
+  version "0.1.0.1157"
 
   on_macos do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-aarch64-apple-darwin.tar.gz"
-      sha256 "3c342458309e9633f53575f292051f295bfd9d1f2e6506b2b19a3b829046abe5"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-aarch64-apple-darwin.tar.gz"
+      sha256 "e0a7bc0fd74feab4d2fbb4244794c452b7186467cf159fea8c9118d8f7ae82f1"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-x86_64-apple-darwin.tar.gz"
-      sha256 "bb78361d55c97c2217cd28505f50b4ee89436aefac930a6b811dbd4d919d0b67"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-x86_64-apple-darwin.tar.gz"
+      sha256 "7db9594ef8764d552363ce3066dcd6ff47b946e2e51b49c3750ff62d4cfd121b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8a736a5914dcf7fa89a5ed909c8b2d37d1b5c7d63fe2f1d9899e248adaf243a9"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "40d1813c666357f8c7e03ed46966fb36aad4340b1da3799b957ad654306a6fcd"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "53d606f1e26a5e82d04366c6a5e598ce3468f0b35df4b654b4f9db9e771c1901"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "64e78473a08c5bb24791e1dcd2d3e5723aedf1fd4da6581195c475390f796621"
     end
   end
 
