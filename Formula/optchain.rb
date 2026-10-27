@@ -8,27 +8,27 @@
 class Optchain < Formula
   desc "Options Meerkat: US option chains, implied volatility, and a terminal dashboard"
   homepage "https://optionsmeerkat.com"
-  version "0.1.0.983"
+  version "0.1.0.1154"
 
   on_macos do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.983/optchain-0.1.0.983-aarch64-apple-darwin.tar.gz"
-      sha256 "a0e291ce18cb63e9ad0d4776d58ee933495359a60edcea872dd927874aa4111c"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-aarch64-apple-darwin.tar.gz"
+      sha256 "3c342458309e9633f53575f292051f295bfd9d1f2e6506b2b19a3b829046abe5"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.983/optchain-0.1.0.983-x86_64-apple-darwin.tar.gz"
-      sha256 "2f1fbd093f1556e8fd77a007449dcc0230dc76439c2c23dc003423c83ac7b074"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-x86_64-apple-darwin.tar.gz"
+      sha256 "bb78361d55c97c2217cd28505f50b4ee89436aefac930a6b811dbd4d919d0b67"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.983/optchain-0.1.0.983-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a983d4a6edc69d5503a8e637d4e3ce560d2270302f5e07171b59e8fefe2a0378"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8a736a5914dcf7fa89a5ed909c8b2d37d1b5c7d63fe2f1d9899e248adaf243a9"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.983/optchain-0.1.0.983-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5e8cf843eb6ea7d09dfad06680c553731e764c9ab5710ff765a4d5e01b6ed2c"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1154/optchain-0.1.0.1154-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "53d606f1e26a5e82d04366c6a5e598ce3468f0b35df4b654b4f9db9e771c1901"
     end
   end
 
