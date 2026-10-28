@@ -8,27 +8,27 @@
 class Optchain < Formula
   desc "Options Meerkat: US option chains, implied volatility, and a terminal dashboard"
   homepage "https://optionsmeerkat.com"
-  version "0.1.0.1157"
+  version "0.1.0.1232"
 
   on_macos do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-aarch64-apple-darwin.tar.gz"
-      sha256 "e0a7bc0fd74feab4d2fbb4244794c452b7186467cf159fea8c9118d8f7ae82f1"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1232/optchain-0.1.0.1232-aarch64-apple-darwin.tar.gz"
+      sha256 "36a8db7634f1e294898afb19235df34fcd0a2f06a45e8e6837dd08a4aa9a8463"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-x86_64-apple-darwin.tar.gz"
-      sha256 "7db9594ef8764d552363ce3066dcd6ff47b946e2e51b49c3750ff62d4cfd121b"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1232/optchain-0.1.0.1232-x86_64-apple-darwin.tar.gz"
+      sha256 "c3fdec4e0ec43b401311490d78b155d3c51a47ea0e89a593dcd0fdff9507abf5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "40d1813c666357f8c7e03ed46966fb36aad4340b1da3799b957ad654306a6fcd"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1232/optchain-0.1.0.1232-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1139fad4902e351f54d2479c84c27cb8ef524e18e7e85fc322a697136035e029"
     end
     on_intel do
-      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1157/optchain-0.1.0.1157-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "64e78473a08c5bb24791e1dcd2d3e5723aedf1fd4da6581195c475390f796621"
+      url "https://github.com/oceanoverflow/homebrew-tap/releases/download/v0.1.0.1232/optchain-0.1.0.1232-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "db3e437407348b7114573f64271012fb7dd5eccfd130940070ff1eda93f65413"
     end
   end
 
